@@ -1,0 +1,143 @@
+
+/*  This styling repeats across all pages just as my nav bar and footer components */
+#navigationContainer {
+display:flex;    
+height:10vh;
+width:100vw;
+border: 1px solid black;
+justify-content: space-around;
+background-color: rgb(128, 124, 133);
+content: color black;
+align-items: center;
+text-decoration: black;
+}
+
+/*  This styling repeats across all pages just as my nav bar and footer components */
+#footerContainer {
+display:flex;    
+height:35vh;
+width:100vw;
+border: 1px solid black;
+justify-content:space-around;
+background-color: rgb(128, 124, 133);
+content: color black;
+text-decoration: black;
+align-items: center;
+flex-direction: column;
+}
+
+
+/* work component */
+#aboutContainer {
+display:flex;    
+height:85vh;
+width:100vw;
+border: 1px solid black;
+background-color: rgb(228, 208, 235);
+justify-content: center;
+align-items: center;
+}
+
+#aboutMini{
+display:flex;
+height: 100%;
+width:70%;
+align-items: center;
+justify-content: center; 
+background-image: url ('./public/saturn.jpg');  
+}
+
+
+/* work component style */
+#workContainer {
+display:flex;    
+height:85vh;
+width:100vw;
+border:1px solid black;
+background-color: rgb(228, 208, 235);
+justify-content: center;
+align-items: center;
+}
+
+#workMini{
+display:flex;
+height: 100%;
+width:70%;
+align-items: center;
+justify-content: center; 
+background-image: url ('./public/saturn.jpg');  
+}
+
+/* contact component style */
+
+#contactContainer {
+display:flex;    
+height:85vh;
+width:100vw;
+border: 1px solid black;
+background-color: rgb(228, 208, 235);
+justify-content: center;
+align-items: center;
+}
+
+#contactMini{
+display:flex;
+height: 100%;
+width:70%;
+align-items: center;
+justify-content: center;   
+}
+
+/* contact component style */
+
+#projectsContainer {
+display:flex;    
+height:85vh;
+width:100vw;
+background-color: rgb(228, 208, 235);
+justify-content: center;
+align-items: center;
+}
+
+#projectsMini{
+display:flex;
+height: 100%;
+width:70%;
+align-items: center;
+justify-content: center;   
+}
+
+#projectsTitle{
+display:flex;
+align-self:top;    
+}
+
+
+/* contact component style */
+
+#hobbiesContainer {
+display:flex;    
+height:85vh;
+width:100vw;
+background-color: rgb(228, 208, 235);
+justify-content: center;
+align-items: center;
+}
+
+#hobbiesMini{
+display:flex;
+height: 100%;
+width:70%;
+align-items: center;
+justify-content: center;   
+}
+
+
+p{
+font-style: italic;    
+}
+
+
+
+
+
