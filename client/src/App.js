@@ -1,3 +1,4 @@
+//-----Imports 
 import React from 'react';
 import './App.css';
 import Work from './Components/Work';
@@ -10,6 +11,7 @@ import Contact from './Components/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
+//----- React routing functionality with path to all components 
 function App() {
 
   return (
@@ -18,7 +20,8 @@ function App() {
       <Router>
         <Navigation/>
         <Switch>
-          <Route path='/about' render={() => <About />} />
+          <Route path='/about' render={() => <About />}/>
+          <Route exact path="/" render={ ()=><About/>}/>
           <Route path='/projects' render={() => <Projects />} />
           <Route path='/hobbies' render={() => <Hobbies />} />
           <Route path='/work' render={() => <Work />} />
@@ -31,18 +34,9 @@ function App() {
   );
 }
 
+//------exporting component
+
 export default App;
 
-
-
-
-
-/// <work/>  is a component in JSX. when imported and put into JSX, it gets to line 9 and runs 
-/// then it runs the FUNCTION. Will always be functions OR classes. Migh have a loop inside the 
-// function. JS class constructor. (think of Zorkington, classes of objects), NOT the class 
-///name of a div in html. 
-//// components are self closing always. and alwats capitalized. 
-
-/// 
 
 

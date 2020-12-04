@@ -1,143 +1,166 @@
-
 /*  This styling repeats across all pages just as my nav bar and footer components */
 #navigationContainer {
-display:flex;    
-height:10vh;
-width:100vw;
-border: 1px solid black;
-justify-content: space-around;
-background-color: rgb(128, 124, 133);
-content: color black;
-align-items: center;
-text-decoration: black;
+  display: flex;
+  height: 8vh;
+  width: 100vw;
+  border: 1px solid black;
+  justify-content: space-around;
+  background-color:black;
+  color:purple;
+  align-items: center;
+  text-decoration:none;
 }
 
 /*  This styling repeats across all pages just as my nav bar and footer components */
 #footerContainer {
-display:flex;    
-height:35vh;
-width:100vw;
-border: 1px solid black;
-justify-content:space-around;
-background-color: rgb(128, 124, 133);
-content: color black;
-text-decoration: black;
-align-items: center;
-flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+  width: 100vw;
+  border: 1px solid black;
+  justify-content: space-around;
+  background-color:black;
+  color:purple;
+  text-decoration:none;
+  align-items: center;
 }
-
 
 /* work component */
 #aboutContainer {
-display:flex;    
-height:85vh;
-width:100vw;
-border: 1px solid black;
-background-color: rgb(228, 208, 235);
-justify-content: center;
-align-items: center;
+  display: flex;
+  height: 85vh;
+  width: 100vw;
+  border: 1px solid black;
+  background-color: rgb(228, 208, 235);
+  justify-content: center;
+  align-items: bottom;
+  background-image: url("./Components/images/purple-shadow.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
 }
 
-#aboutMini{
-display:flex;
-height: 100%;
-width:70%;
-align-items: center;
-justify-content: center; 
-background-image: url ('./public/saturn.jpg');  
+#aboutMini {
+  display: flex;
+  height: 100%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: x-large;
+  color: whitesmoke;
 }
-
 
 /* work component style */
 #workContainer {
-display:flex;    
-height:85vh;
-width:100vw;
-border:1px solid black;
-background-color: rgb(228, 208, 235);
-justify-content: center;
-align-items: center;
+  display: flex;
+  height: 85vh;
+  width: 100vw;
+  border: 1px solid black;
+  background-color: rgb(1, 0, 2);
+  justify-content: center;
+  align-items: center;
+  background-image: url("http://www.starbase1.co.uk/images/bannersaturn.jpg");
+  color: whitesmoke;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top left;
+  opacity: 0.9;
 }
 
-#workMini{
-display:flex;
-height: 100%;
-width:70%;
-align-items: center;
-justify-content: center; 
-background-image: url ('./public/saturn.jpg');  
+#workMini {
+  display: flex;
+  height: 100%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  background-image: url ("./public/saturn.jpg");
 }
 
 /* contact component style */
 
 #contactContainer {
-display:flex;    
-height:85vh;
-width:100vw;
-border: 1px solid black;
-background-color: rgb(228, 208, 235);
-justify-content: center;
-align-items: center;
+  display: flex;
+  height: 85vh;
+  width: 100vw;
+  border: 1px solid black;
+  background-color: rgb(228, 208, 235);
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.imgur.com/cWCeBUC.png");
+  background-size: 100vw 90vh;
+  background-position: center;
 }
 
-#contactMini{
-display:flex;
-height: 100%;
-width:70%;
-align-items: center;
-justify-content: center;   
+#contactMini {
+  display: flex;
+  height: 100%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* contact component style */
 
 #projectsContainer {
-display:flex;    
-height:85vh;
-width:100vw;
-background-color: rgb(228, 208, 235);
-justify-content: center;
-align-items: center;
+  display: flex;
+  height: 85vh;
+  width: 100vw;
+  background-color: rgb(228, 208, 235);
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.imgur.com/ooEgg2h.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+  color: whitesmoke;
 }
 
-#projectsMini{
-display:flex;
-height: 100%;
-width:70%;
-align-items: center;
-justify-content: center;   
+#projectsMini {
+  display: flex;
+  height: 100%;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
 }
 
-#projectsTitle{
-display:flex;
-align-self:top;    
+#title {
+  display: flex;
+  align-self: top;
 }
 
+#placeholderColumn{
+ display:flex;
+ border:1px solid black;
+  
+}
 
 /* contact component style */
 
 #hobbiesContainer {
-display:flex;    
-height:85vh;
-width:100vw;
-background-color: rgb(228, 208, 235);
-justify-content: center;
-align-items: center;
+  display: flex;
+  height:auto;
+  width: 100vw;
+  background-color: rgb(228, 208, 235);
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Components/images/purple-shadow.jpg");
+  background-position: center;
+  color: whitesmoke;
+  font-size: large;
+  font-weight: 900;
 }
 
-#hobbiesMini{
-display:flex;
-height: 100%;
-width:70%;
-align-items: center;
-justify-content: center;   
+#hobbiesMini {
+  display: flex;
+  flex-direction:column;
+  height: auto;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
 }
 
-
-p{
-font-style: italic;    
+/*  Targeting parragraph tags specifically */
+p {
+  font-style: italic;
 }
-
-
-
-
-
